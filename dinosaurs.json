@@ -1,4 +1,4 @@
-//everything in a json file must have quotation marks aorund it
+
 {
 	"dinosaurs": [
 		{
@@ -11,7 +11,7 @@
 			"name": "Tri",
 			"type": "Triceratops",
 			"food": "meats",
-			"url": "https://www.google.com/search?q=triceratops&source=lnms&tbm=isch&sa=X&ved=0ahUKEwirn6-uoMPSAhXKSyYKHXknCX8Q_AUICCgB&biw=1280&bih=703#imgrc=0SpmbJhoDgMgLM:"
+			"url": "https://www.q-files.com/images/pages/galleries/615/triceratops-1.jpg"
 		},
 		{
 			"name": "Long Neck",
