@@ -1,0 +1,23 @@
+
+{
+	"dinosaurs": [
+		{
+			"name": "Rex",
+			"type": "T-rex",
+			"food": "smaller dinosaurs",
+			"url": "https://images-na.ssl-images-amazon.com/images/I/81mwKme3faL._SL1500_.jpg"
+		},
+		{
+			"name": "Tri",
+			"type": "Triceratops",
+			"food": "meats",
+			"url": "https://www.q-files.com/images/pages/galleries/615/triceratops-1.jpg"
+		},
+		{
+			"name": "Long Neck",
+			"type": "Brontosaurus",
+			"food": "plants",
+			"url": "https://cdn1.vox-cdn.com/uploads/chorus_asset/file/3581204/Brontosaurus_Copyright_DavideBonadonna-1.0.jpg"
+		}
+	]
+}
