@@ -1,3 +1,4 @@
+console.log("first line in JS file: ", Date.now());
 var dinoContainer = document.getElementById("dinoContainer");
 
 function makeDom(xhrData){
@@ -21,13 +22,13 @@ function makeDom(xhrData){
 }
 
 function executeThisCodeAfterFileLoaded(){
+	console.log("Data returned: ", Date.now());
 	var data = JSON.parse(this.responseText);
-	console.log("it worked!!", data);
 	makeDom(data);
 }
 
 function executeThisCodeAfterFileFails(){
-	console.log("it failed!!")
+	
 }
 
 
@@ -38,3 +39,5 @@ myRequest.addEventListener("load", executeThisCodeAfterFileLoaded);
 myRequest.addEventListener("error", executeThisCodeAfterFileFails);
 myRequest.open("GET", "dinosaurs.json");
 myRequest.send();
+
+console.log("last line in JS file: ", Date.now());
